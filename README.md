@@ -8,6 +8,7 @@ I popped open the Solarflare DKMS RPM, got it up and running on an Ubuntu machin
 Solarflare URL: https://support.solarflare.com/index.php?view=categories&id=1945&option=com_cognidox&Itemid=2
 
 License: GNU GPLv2
+The source code is _inside_ of the package. Use `ar vx sfc-dkms_4.*.deb` to extract the .deb. You'll find a data.tar.gz file, use `tar -tzvf data.tar.gz` to extract data.tar.gz. For more information see http://www.tldp.org/HOWTO/Debian-Binary-Package-Building-HOWTO/x60.html
 
 ```
 Copyright 2005-2006 Fen Systems Ltd.
